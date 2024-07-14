@@ -11,14 +11,14 @@
     </style>
 </head>
 <body>
-    <h1>Somando valores</h1>
+    <h1 id="titulo">Somando valores</h1>
     <input type="number" name="sum1" id="sum1"> +
     <input type="number" name="sum2" id="sum2">
     <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
 
     <script>
-        function somar() {
+         function somar() {
             let tn1 = document.getElementById('sum1')
             let tn2 = document.querySelector('input#sum2')
             let res = document.querySelector('div#res')
