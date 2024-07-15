@@ -1,4 +1,3 @@
-
 /* Arquivo JS aula 05 Objetos */
 
 // CRIAR OBJETO
