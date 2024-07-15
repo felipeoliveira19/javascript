@@ -6,7 +6,7 @@ let pessoa = {
     idade  : 40,
     peso   : 83.5,
     altura : 1.75,
-    doador : false,
+    doador : false
 }
 
 let produtos = {
@@ -44,15 +44,15 @@ let imc = pessoa.peso / (pessoa.altura * pessoa.altura)
 console.log("IMC " + imc.toFixed(2))
 
 // ALTERAR/ATUALIZAR VALOR de propriedade
-pessoa.nome = "Edson Maia"
-produtos.descricao = ['Arroz']
-produtos.preco = [4.99]
+  pessoa.nome = "Edson Maia"
+  produtos.descricao = ['Arroz']
+  produtos.preco = [4.99]
 
 // Usando spreed operator
-produtos.descricao = [...produtos.descricao, 'Feijão', 'Trigo']
-produtos.preco = [...produtos.preco, 9.99, 4.79]
+  produtos.descricao = [...produtos.descricao, 'Feijão', 'Trigo']
+  produtos.preco = [...produtos.preco, 9.99, 4.79]
 
 // Usando spreed operator em objetos const
-carros.marca  = [...carros.marca, 'WV']
-carros.modelo = [...carros.modelo, 'Fusca']
-carros.ano    = [...carros.ano, '1979']
+  carros.marca  = [...carros.marca, 'WV']
+  carros.modelo = [...carros.modelo, 'Fusca']
+  carros.ano    = [...carros.ano, '1979']
